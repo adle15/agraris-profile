@@ -256,17 +256,22 @@
                         <ul class="uppercase-links stacked-links">
                             <li>
                                 <a href="#">
-                                    Home
+                                    About Us
                                 </a>
                             </li>
                             <li>
                                 <a href="#paper-kit">
-                                    Discover
+                                    Terms & Condition
                                 </a>
                             </li>
                             <li>
                                 <a href="#paper-kit">
-                                    Blog
+                                    Karir
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#paper-kit">
+                                    FAQ
                                 </a>
                             </li>
                         </ul>
