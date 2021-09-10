@@ -51,7 +51,7 @@
                     </li>
     </nav>
 
-    <div class="page-header page-header-small" style="background-image: url('../../public/template/assets/img/HeaderUtama3.JPG');">
+    <div class="page-header" style="background-image: url('../../public/template/assets/img/HeaderUtama3.JPG');">
         <div class="wrapper">
             <div class="section">
                 <div class="row add-row">
