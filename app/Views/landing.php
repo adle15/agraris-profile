@@ -27,7 +27,7 @@
         <div class="container" back>
             <div class="navbar-translate">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#"></a>
+                    <a class="navbar-brand" href="#">Agraris</a>
                 </div>
                 <button class="navbar-toggler navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar"></span>
