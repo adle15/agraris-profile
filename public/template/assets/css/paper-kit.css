@@ -173,6 +173,7 @@ h3 .small {
 .wrapper .section1 {
   background-color: #f7c900;
   color: #ffffff;
+  max-height: 850px;
 }
 
 .wrapper .section2 {
