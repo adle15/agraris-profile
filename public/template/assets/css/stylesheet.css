@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  cursor: pointer;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 15px;
+  display: block;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.landing-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(../img/HeaderUtama3.JPG);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  max-height: 999px;
+  background-position: center;
+}
+
+.jargon {
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  color: #ffffff;
+}
+
+.landing-wrapper-2 {
+  padding: 180px 0 100px 0;
+  background-color: #4f7c47;
+  color: white;
+  min-height: 90vh;
+  max-height: 999px;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.landing-wrapper-3 {
+  background-color: #f7c900;
+  color: #ffffff;
+}
+
+.benefit {
+  padding: 30px 0 30px;
+  text-align: center;
+  max-width: 720px;
+}
+
+.benefit .benefit-icon img {
+  height: 50px;
+  width: 50px;
+  margin-top: 30px;
+}
+
+.benefit-description h4 {
+  margin-top: 30px;
+}
+
+.landing-wrapper-4 {
+  background-color: #9be744;
+  color: white;
+  min-height: 90vh;
+  max-height: 9999px;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+.landing-wrapper-4 .title {
+  margin-bottom: 30px;
+}
+
+.mini-box {
+  display: block;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  margin-bottom: 55px;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.mini-box i {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.mini-box i img {
+  max-height: 145px;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mini-box span {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777;
+  letter-spacing: 0.75px;
+}
+
+.mini-box-footer {
+  max-height: 25px;
+}
+
+.mini-box-footer img {
+  max-height: 80px;
+  margin-top: 10px;
+}
+
+.footer {
+  padding: 180px 0 100px 0;
+  background-color: #4f7c47;
+  color: white;
+  min-height: 60vh;
+  max-height: 999px;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.footer-left h3 {
+  font-size: 18px;
+}
+
+.footer-center .btn {
+  margin: 30px auto;
+  display: inline-block;
+  justify-content: center;
+}
+
+.footer-right ul {
+  list-style: none;
+}
+
+.footer-right ul li h3 a {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.footer-center .btn {
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: #ffffff;
+  opacity: 0.95;
+  color: #4f7c47;
+}
+
+.kemitraan-wrapper {
+  padding: 180px 0 100px 0;
+  background-color: #4f7c47;
+  color: white;
+  min-height: 100vh;
+  max-height: 999px;
+  background-position: center;
+}
+
+.kemitraan-wrapper .btn {
+  margin: 10px;
+}
+
+.kemitraan-wrapper-1 {
+  padding: 180px 0 100px 0;
+  background-color: #9be744;
+  color: white;
+  min-height: 90vh;
+  max-height: 999px;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.kemitraan-wrapper-1 p {
+  font-size: 25px;
+}
+
+.text-wrapper-1 p {
+  margin-top: 30px;
+}
+
+.kemitraan-wrapper-2 {
+  background-color: #9be744;
+  color: white;
+  min-height: 100vh;
+  max-height: 999px;
+  background-position: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+.kemitraan-wrapper-2 .title {
+  margin-bottom: 30px;
+}
+
+.cara-gabung-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("../img/HeaderUtama3.JPG");
+  color: white;
+  min-height: 60vh;
+  max-height: 999px;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
+.cara-gabung-wrapper form {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.cara-gabung-wrapper label {
+  margin: 10px;
+}
+
+.cara-gabung-wrapper .container .form-wrapper {
+  margin: auto;
+  text-align: center;
+}
