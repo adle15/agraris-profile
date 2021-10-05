@@ -85,7 +85,7 @@ header {
 
 .landing-wrapper-2 {
   padding: 180px 0 100px 0;
-  background-color: #0b9344;
+  background-image: url(../img/backgroundPolos.jpg);
   color: #ffffff;
   overflow: hidden;
   position: relative;
@@ -397,6 +397,7 @@ header {
 }
 .cara-gabung-wrapper label {
   margin: 10px;
+  font-size: 14px;
 }
 
 .cara-gabung-wrapper .container .form-wrapper {
