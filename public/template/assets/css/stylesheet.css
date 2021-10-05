@@ -154,6 +154,7 @@ header {
   color: #ffffff;
   overflow: hidden;
   position: relative;
+  display: block;
   text-align: center;
   align-items: center;
   justify-content: center;
