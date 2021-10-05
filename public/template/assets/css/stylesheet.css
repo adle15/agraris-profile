@@ -395,6 +395,16 @@ header {
   max-height: 9999px;
 }
 
+.cara-gabung-wrapper h2 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.cara-gabung-wrapper p {
+  font-size: 25px;
+  font-style: italic;
+}
+
 .cara-gabung-wrapper .btn {
   color: #ffffff;
 }
