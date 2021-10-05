@@ -3,6 +3,12 @@
   src: url(../fonts/IBMPlexSans-Regular.ttf);
 }
 
+@font-face {
+  font-family: IBMPlexSans;
+  font-weight: bold;
+  src: url(../fonts/IBMPlexSans-Bold.ttf);
+}
+
 * {
   box-sizing: border-box;
   font-family: IBMPlexSans;
@@ -53,6 +59,10 @@ header {
   max-height: 9999px;
 }
 
+.landing-wrapper .btn {
+  color: #ffffff;
+}
+
 .jargon {
   margin-bottom: 30px;
 }
@@ -88,6 +98,10 @@ header {
   background-size: cover;
   min-height: 100vh;
   max-height: 9999px;
+}
+
+.landing-wrapper-2 .btn {
+  color: #ffffff;
 }
 
 .text-wrapper-1 h1 {
@@ -260,7 +274,7 @@ header {
 
 .kemitraan-wrapper {
   padding: 180px 0 100px 0;
-  background-color: #0b9344;
+  background-image: url(../img/backgroundPolos.jpg);
   color: #ffffff;
   overflow: hidden;
   position: relative;
@@ -286,6 +300,7 @@ header {
 
 .kemitraan-wrapper .btn {
   margin: 10px;
+  color: #ffffff;
 }
 
 .kemitraan-wrapper-1 {
@@ -332,6 +347,10 @@ header {
   max-height: 9999px;
 }
 
+.kemitraan-wrapper-2 .btn {
+  color: #ffffff;
+}
+
 .kemitraan-wrapper-2 h1 {
   font-weight: bold;
 }
@@ -365,6 +384,10 @@ header {
   background-size: cover;
   min-height: 100vh;
   max-height: 9999px;
+}
+
+.cara-gabung-wrapper .btn {
+  color: #ffffff;
 }
 
 .cara-gabung-wrapper form {
