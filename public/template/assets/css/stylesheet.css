@@ -59,6 +59,14 @@ header {
   max-height: 9999px;
 }
 
+.landing-wrapper h1 {
+  font-size: 45px;
+}
+
+.landing-wrapper h4 {
+  font-size: 22px;
+}
+
 .landing-wrapper .btn {
   color: #ffffff;
 }
