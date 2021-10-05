@@ -1,9 +1,19 @@
+@font-face {
+  font-family: IBMPlexSans;
+  src: url(../fonts/IBMPlexSans-Regular.ttf);
+}
+
 * {
   box-sizing: border-box;
+  font-family: IBMPlexSans;
 }
 
 .navbar {
   cursor: pointer;
+}
+
+.navbar .navbar-brand img {
+  max-height: 50px;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
@@ -28,18 +38,31 @@ header {
 }
 
 .landing-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(../img/HeaderUtama3.JPG);
-  background-size: cover;
-  color: white;
+  background-image: url(../img/HeaderWebAgraris.jpg);
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   min-height: 100vh;
-  max-height: 999px;
-  background-position: center;
+  max-height: 9999px;
 }
 
 .jargon {
   margin-bottom: 30px;
+}
+
+.sub-jargon {
+  margin-bottom: 30px;
+}
+
+.jargon h1 {
+  font-weight: bold;
 }
 
 .btn:hover {
@@ -52,18 +75,47 @@ header {
 
 .landing-wrapper-2 {
   padding: 180px 0 100px 0;
-  background-color: #4f7c47;
-  color: white;
-  min-height: 90vh;
-  max-height: 999px;
+  background-color: #0b9344;
+  color: #ffffff;
+  overflow: hidden;
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
+}
+
+.text-wrapper-1 h1 {
+  font-weight: bold;
 }
 
 .landing-wrapper-3 {
-  background-color: #f7c900;
+  background-color: #f9c611;
   color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 70vh;
+  max-height: 9999px;
+}
+
+.landing-wrapper-3 h1 {
+  font-weight: bold;
+}
+
+.landing-wrapper-3 i {
+  font-size: 30px;
 }
 
 .benefit {
@@ -83,17 +135,31 @@ header {
 }
 
 .landing-wrapper-4 {
-  background-color: #9be744;
-  color: white;
-  min-height: 90vh;
-  max-height: 9999px;
+  padding: 180px 0 100px 0;
+  background-color: #8ed14e;
+  color: #ffffff;
+  overflow: hidden;
   position: relative;
-  padding-top: 60px;
-  padding-bottom: 80px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
 }
 
 .landing-wrapper-4 .title {
   margin-bottom: 30px;
+}
+
+.landing-wrapper-4 h1 {
+  font-weight: bold;
+}
+
+.landing-wrapper-4 i {
+  font-size: 30px;
 }
 
 .mini-box {
@@ -114,6 +180,8 @@ header {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 12px;
+  height: 270px;
+  width: 200px;
 }
 
 .mini-box i {
@@ -147,14 +215,18 @@ header {
 }
 
 .footer {
-  padding: 180px 0 100px 0;
-  background-color: #4f7c47;
-  color: white;
-  min-height: 60vh;
-  max-height: 999px;
+  background-color: #0b9344;
+  color: #ffffff;
+  overflow: hidden;
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 70vh;
+  max-height: 9999px;
 }
 
 .footer-left h3 {
@@ -164,35 +236,52 @@ header {
 .footer-center .btn {
   margin: 30px auto;
   display: inline-block;
-  justify-content: center;
 }
 
 .footer-right ul {
   list-style: none;
+  text-align: end;
 }
 
 .footer-right ul li h3 a {
   color: #ffffff;
   font-size: 18px;
+  text-align: center;
 }
 
 .footer-center .btn {
   margin: 10px;
   margin-bottom: 30px;
   border-radius: 4px;
-  text-align: center;
   background-color: #ffffff;
   opacity: 0.95;
-  color: #4f7c47;
+  color: #0b9344;
 }
 
 .kemitraan-wrapper {
   padding: 180px 0 100px 0;
-  background-color: #4f7c47;
-  color: white;
+  background-color: #0b9344;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   min-height: 100vh;
-  max-height: 999px;
-  background-position: center;
+  max-height: 9999px;
+}
+
+.kemitraan-wrapper h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.kemitraan-wrapper p {
+  font-size: 20px;
 }
 
 .kemitraan-wrapper .btn {
@@ -201,13 +290,22 @@ header {
 
 .kemitraan-wrapper-1 {
   padding: 180px 0 100px 0;
-  background-color: #9be744;
-  color: white;
-  min-height: 90vh;
-  max-height: 999px;
+  background-color: #8ed14e;
+  color: #ffffff;
+  overflow: hidden;
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
+}
+
+.kemitraan-wrapper-1 h1 {
+  font-weight: bold;
 }
 
 .kemitraan-wrapper-1 p {
@@ -219,13 +317,33 @@ header {
 }
 
 .kemitraan-wrapper-2 {
-  background-color: #9be744;
-  color: white;
-  min-height: 100vh;
-  max-height: 999px;
-  background-position: center;
+  background-color: #8ed14e;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
+}
+
+.kemitraan-wrapper-2 h1 {
+  font-weight: bold;
+}
+
+.kemitraan-wrapper-2 p {
   font-size: 25px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.kemitraan-wrapper-2 h4 {
+  font-size: 20px;
 }
 
 .kemitraan-wrapper-2 .title {
@@ -234,16 +352,19 @@ header {
 
 .cara-gabung-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url("../img/HeaderUtama3.JPG");
-  color: white;
-  min-height: 60vh;
-  max-height: 999px;
+  background-image: url("../img/backgroundPolos.jpg");
+  color: #ffffff;
+  overflow: hidden;
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 80px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
-  background-position: center;
-  display: block;
+  min-height: 100vh;
+  max-height: 9999px;
 }
 
 .cara-gabung-wrapper form {

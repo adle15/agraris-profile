@@ -14,6 +14,18 @@
   .kemitraan-wrapper-2 h3 {
     font-size: 20px;
   }
+  .footer-left {
+    font-size: 18px;
+    float: none;
+  }
+
+  .cara-gabung-wrapper label {
+    font-size: 15px;
+  }
+
+  .cara-gabung-wrapper .container {
+    margin: 30px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -24,22 +36,11 @@
   .kemitraan-wrapper .text-wrapper-1 {
     margin-top: 30px;
   }
-  .footer {
-    padding: 10px 0 10px 0;
+  .footer .col-sm {
+    margin: 30px;
   }
-
   .footer-left {
-    margin: 45px;
-  }
-
-  .footer-left h3 {
-    font-size: 15px;
-  }
-
-  .footer-right {
-    float: left;
-  }
-  .footer-right h3 {
-    font-size: 15px;
+    font-size: 18px;
+    float: none;
   }
 }
