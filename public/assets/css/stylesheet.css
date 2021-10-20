@@ -1,0 +1,428 @@
+@font-face {
+  font-family: IBMPlexSans;
+  src: url(../fonts/IBMPlexSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: IBMPlexSans;
+  font-weight: bold;
+  src: url(../fonts/IBMPlexSans-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: IBMPlexSans;
+}
+
+.navbar {
+  cursor: pointer;
+}
+
+.navbar .navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 15px;
+  display: block;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.landing-wrapper {
+  background-image: url(../img/HeaderWebAgraris.jpg);
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
+}
+
+.landing-wrapper h1 {
+  font-size: 50px;
+}
+
+.landing-wrapper h4 {
+  font-size: 20px;
+}
+
+.landing-wrapper .btn {
+  color: #ffffff;
+}
+
+.jargon {
+  margin-bottom: 30px;
+}
+
+.sub-jargon {
+  margin-bottom: 30px;
+}
+
+.jargon h1 {
+  font-weight: bold;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  color: #ffffff;
+}
+
+.landing-wrapper-2 {
+  padding: 180px 0 100px 0;
+  background-image: url(../img/backgroundPolos.jpg);
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
+}
+
+.landing-wrapper-2 .btn {
+  color: #ffffff;
+}
+
+.text-wrapper-1 h1 {
+  font-weight: bold;
+}
+
+.landing-wrapper-3 {
+  background-color: #f9c611;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 70vh;
+  max-height: 9999px;
+}
+
+.landing-wrapper-3 h1 {
+  font-weight: bold;
+}
+
+.landing-wrapper-3 i {
+  font-size: 30px;
+}
+
+.benefit {
+  padding: 30px 0 30px;
+  text-align: center;
+  max-width: 720px;
+}
+
+.benefit .benefit-icon img {
+  height: 50px;
+  width: 50px;
+  margin-top: 30px;
+}
+
+.benefit-description h4 {
+  margin-top: 30px;
+}
+
+.landing-wrapper-4 {
+  padding: 180px 0 100px 0;
+  background-color: #8ed14e;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
+}
+
+.landing-wrapper-4 .title {
+  margin-bottom: 30px;
+}
+
+.landing-wrapper-4 h1 {
+  font-weight: bold;
+}
+
+.landing-wrapper-4 i {
+  font-size: 30px;
+}
+
+.mini-box {
+  display: block;
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  margin-bottom: 55px;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  height: 270px;
+  width: 200px;
+}
+
+.mini-box i {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.mini-box i img {
+  max-height: 145px;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mini-box span {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777;
+  letter-spacing: 0.75px;
+}
+
+.mini-box-footer {
+  max-height: 25px;
+}
+
+.mini-box-footer img {
+  max-height: 80px;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #0b9344;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 70vh;
+  max-height: 9999px;
+}
+
+.footer-left h3 {
+  font-size: 18px;
+}
+
+.footer-center .btn {
+  margin: 30px auto;
+  display: inline-block;
+}
+
+.footer-right {
+  justify-content: end;
+}
+
+.footer-right ul {
+  list-style: none;
+  text-align: end;
+}
+
+.footer-right ul li h3 a {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer-center .btn {
+  margin: 10px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  opacity: 0.95;
+  color: #0b9344;
+}
+
+.kemitraan-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(../img/backgroundPolos.jpg);
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
+}
+
+.kemitraan-wrapper h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.kemitraan-wrapper p {
+  font-size: 20px;
+}
+
+.kemitraan-wrapper .btn {
+  margin: 10px;
+  color: #ffffff;
+}
+
+.kemitraan-wrapper-1 {
+  padding: 180px 0 100px 0;
+  background-color: #8ed14e;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
+}
+
+.kemitraan-wrapper-1 h1 {
+  font-weight: bold;
+}
+
+.kemitraan-wrapper-1 p {
+  font-size: 25px;
+}
+
+.text-wrapper-1 p {
+  margin-top: 30px;
+}
+
+.kemitraan-wrapper-2 {
+  background-color: #8ed14e;
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
+}
+
+.kemitraan-wrapper-2 .btn {
+  color: #ffffff;
+}
+
+.kemitraan-wrapper-2 h1 {
+  font-weight: bold;
+}
+
+.kemitraan-wrapper-2 p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.kemitraan-wrapper-2 h4 {
+  font-size: 20px;
+}
+
+.kemitraan-wrapper-2 .title {
+  margin-bottom: 30px;
+}
+
+.cara-gabung-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url("../img/backgroundPolos.jpg");
+  color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 100vh;
+  max-height: 9999px;
+}
+
+.cara-gabung-wrapper h2 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.cara-gabung-wrapper p {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.cara-gabung-wrapper .btn {
+  color: #ffffff;
+}
+
+.cara-gabung-wrapper form {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.cara-gabung-wrapper label {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.cara-gabung-wrapper .container .form-wrapper {
+  margin: auto;
+  text-align: center;
+}

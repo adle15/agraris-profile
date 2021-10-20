@@ -31,9 +31,10 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
-$routes->get('/cara-gabung', 'Home::caraGabung');
-$routes->get('/kemitraan', 'Home::kemitraan');
+$routes->get('/', 'Apps::index');
+$routes->get('/cara-gabung', 'Apps::caraGabung');
+$routes->get('/kemitraan', 'Apps::kemitraan');
+$routes->get('/nimda', 'Nimda::index');
 
 /*
  * --------------------------------------------------------------------
